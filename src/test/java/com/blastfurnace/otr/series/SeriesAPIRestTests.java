@@ -27,7 +27,7 @@ public class SeriesAPIRestTests extends AppConfigTest {
 	private static final Logger log = LoggerFactory.getLogger(SeriesAPIRestTests.class); 
 	
 	@Test
-	public void WhenSendingGetRequestToControllerReponseObject() throws Exception {
+	public void shouldPerformSeriesAPIRestTests() throws Exception {
 		log.info("Series API Rest Tests - Start");
 		
 		@SuppressWarnings("rawtypes")
