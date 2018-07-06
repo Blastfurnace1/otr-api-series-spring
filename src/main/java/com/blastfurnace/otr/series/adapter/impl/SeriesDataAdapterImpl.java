@@ -6,11 +6,11 @@ import java.util.Map;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+import com.blastfurnace.otr.api.response.GenericResponse;
 import com.blastfurnace.otr.data.series.service.model.SeriesDataWrapper;
-import com.blastfurnace.otr.rest.request.QueryData;
 import com.blastfurnace.otr.series.adapter.SeriesDataAdapter;
 import com.blastfurnace.otr.series.service.SeriesDataService;
-import com.blastfurnace.otr.service.response.GenericResponse;
+import com.blastfurnace.otr.service.request.QueryData;
 
 
 @Component("SeriesDataAdapter")

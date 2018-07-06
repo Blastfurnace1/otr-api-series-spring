@@ -14,10 +14,10 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.blastfurnace.otr.api.response.GenericResponse;
 import com.blastfurnace.otr.data.series.service.model.SeriesDataWrapper;
-import com.blastfurnace.otr.rest.request.QueryData;
 import com.blastfurnace.otr.series.adapter.SeriesDataAdapter;
-import com.blastfurnace.otr.service.response.GenericResponse;
+import com.blastfurnace.otr.service.request.QueryData;
 
 @RestController
 @RequestMapping("/rest/series")
